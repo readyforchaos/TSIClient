@@ -1,10 +1,15 @@
 from distutils.core import setup
+
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
   name = 'TSIClient',         # How you named your package folder (MyLib)
   packages = ['TSIClient'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Client SDK for Azure Time Series Insight',   # Give a short description about your library
+  long_description=long_description,
+  long_description_content_type='text/markdown',  # This is important!
   author = 'Anders Gill',                   # Type in your name
   author_email = 'gill@outlook.com',      # Type in your E-Mail
   url = 'https://github.com/readyforchaos',   # Provide either the link to your github or to your website
