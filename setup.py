@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open('README.md') as f:
     long_description = f.read()
@@ -13,7 +13,7 @@ setup(
   author = 'Anders Gill',                   # Type in your name
   author_email = 'gill@outlook.com',      # Type in your E-Mail
   url = 'https://github.com/readyforchaos',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/readyforchaos/TSIClient/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/readyforchaos/TSIClient/archive/v_02.tar.gz',    # I explain this later on
   keywords = ['Time Series Insight', 'TSI', 'TSI SDK'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
