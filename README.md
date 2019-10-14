@@ -1,3 +1,4 @@
+# PROJECT MOVED TO https://github.com/RaaLabs/TSIClient
 # TSIClient - Get your data from TSI!
 
 With TSIClient, you are able to get your data from Azure Time Series Insight! Just use this simple SDK :)
